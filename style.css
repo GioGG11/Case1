@@ -1,22 +1,25 @@
-body{
+body {
     background-color: black;
 }
 
 /* Middle of the Home Page START */
-.homeEvents{
-    display:grid;
+.homeEvents {
+    display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     /* row-gap: 20px; */
 }
-.event{
-   
+
+.event {
+
     text-align: center;
     justify-self: center;
     align-self: stretch;
     margin-top: 10px;
     margin-bottom: 10px;
-    width:100%;
+    width: 100%;
     height: 15em;
-    background-color: white;
+    color: white;
 }
+
 /* Middle of the Home Page END */
+
