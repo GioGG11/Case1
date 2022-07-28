@@ -10,7 +10,6 @@ body {
 }
 
 .event {
-
     text-align: center;
     justify-self: center;
     align-self: stretch;
@@ -23,3 +22,32 @@ body {
 
 /* Middle of the Home Page END */
 
+/* SEARCH RECIPE PAGE START */
+.search-wrapper{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+}
+
+.recipe-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+    gap: 1.5rem;
+    margin-top: 1rem;
+    padding: .5rem;
+    min-width: 0;
+}
+
+.card{
+    color: white;
+    text-align: center;
+    margin: 1rem;
+}
+.recipePhoto{
+    object-fit: scale-down;
+    width: 100%;
+}
+.recipeName{
+    font-size: 1.5rem;
+}
