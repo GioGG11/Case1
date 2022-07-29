@@ -27,7 +27,14 @@ body {
     color: white;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: .25rem;
+    text-align: center;
+}
+
+#search{
+    width: 20rem;
+    align-self: center;
 }
 
 .recipe-cards{
@@ -50,4 +57,8 @@ body {
 }
 .recipeName{
     font-size: 1.5rem;
+}
+
+.hide{
+    display: none;
 }
