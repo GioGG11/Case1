@@ -5,8 +5,7 @@ body {
 /* Middle of the Home Page START */
 .homeEvents {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    /* row-gap: 20px; */
+    grid-template-rows: repeat(auto-fill, minmax(250px,1fr));
 }
 
 .event {
@@ -16,8 +15,12 @@ body {
     margin-top: 10px;
     margin-bottom: 10px;
     width: 100%;
-    height: 15em;
     color: white;
+    font-size: 25px;
+}
+.luckyPhoto{
+    object-fit: scale-down;
+    width: 90%;
 }
 
 /* Middle of the Home Page END */
