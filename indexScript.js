@@ -1,4 +1,3 @@
-//Home Page Script Start////
 const apiKey = '&apiKey=a09675119b4846298ec84a1fedd5f4a6';
 fetch('https://api.spoonacular.com/recipes/random?number=1')
         .then(res =>res.json())

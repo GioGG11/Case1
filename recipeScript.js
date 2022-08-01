@@ -12,6 +12,7 @@ const recipeCardTemplate = document.querySelector("[data-recipe-template]");
 const recipeCardcontainer = document.querySelector("[data-recipe-card-container]");
 const searchInput = document.querySelector("[data-search]");
 const apiKey = '&apiKey=a09675119b4846298ec84a1fedd5f4a6';
+const apiKey2 ='?apiKey=a09675119b4846298ec84a1fedd5f4a6';
 const randomURL ='https://api.spoonacular.com/recipes/random?number=10'
 const searchURL = "https://api.spoonacular.com/recipes/complexSearch?number=10"
 
