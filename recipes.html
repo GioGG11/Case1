@@ -8,7 +8,20 @@
     <title>Recipes</title>
 </head>
 <body>
-    
-    <script src="script.js"></script>
+    <div class='search-wrapper'>
+       <label for="search">Search Recipes</label>
+       <input type="search" id="search" placeholder="Enter Recipe..." data-search>
+    </div>
+    <div class="recipe-cards" data-recipe-card-container>
+    </div>
+   
+   
+    <template data-recipe-template>
+        <div class="card">
+            <img class="recipePhoto" data-photo src="">
+            <div class="recipeName" data-name></div>
+        </div>
+    </template>
+    <script src="recipeScript.js" defer></script>
 </body>
 </html>
