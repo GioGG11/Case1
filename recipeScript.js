@@ -8,6 +8,15 @@
 //     recipeArea.appendChild(titleElement);
 // })
 // ABOVE IS A EXAMPLE OF HOW I GOT THE DATA FROM THE API
+function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+  
 const recipeCardTemplate = document.querySelector("[data-recipe-template]");
 const recipeCardcontainer = document.querySelector("[data-recipe-card-container]");
 const searchInput = document.querySelector("[data-search]");

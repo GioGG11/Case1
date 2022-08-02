@@ -1,3 +1,12 @@
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
 let currentDate = new Date();
 let tomorrow = new Date(currentDate);
 tomorrow.setDate(currentDate.getDate()+1);

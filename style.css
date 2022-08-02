@@ -10,6 +10,7 @@ body {
     display: grid;
     grid-template-rows: repeat(auto-fill, minmax(0px,1fr));
     flex: 1 0 auto;
+    margin-bottom: 100px;
 }
 table{
     background-color: white;
@@ -55,7 +56,12 @@ h4{
     object-fit: scale-down;
     width: 90%;
 }
-
+.feelLucky p{
+  margin-bottom: 0px;
+}
+.recipeName{
+  margin-top: 5px;
+}
 /* Middle of the Home Page END */
 
 
@@ -238,6 +244,38 @@ form input[type="submit"]:hover{
     display: none;
 }
 /*Miscellenous Styling + Nav Bar*/
+.topnav {
+    overflow: hidden;
+    background-color: rgb(41, 41, 41);
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    float: left;
+    color: white;
+    padding: 14px 10px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a.icon {
+    float: right;
+  }
+  
+  .topnav a:hover {
+    background-color: #3423A6;
+    color: white;
+  }
+  
+  .active {
+    background-color: #EB5E28;
+    color: black;
+  }
+
 .title{
     color: black;
     font-size: 1.25rem;
@@ -271,9 +309,7 @@ ul {
     height: 80%;
     width: 80%;
   }
-  .active {
-    background-color: #04AA6D;
-  }
+
   form input{
     display: block;
    
