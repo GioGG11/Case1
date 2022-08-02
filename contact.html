@@ -9,16 +9,23 @@
 </head>
 <body>
     <script src="indexscript.js"></script>
-    <center><H1>CONTACT US</H1></center>
-		<center><img src="logo.png" vspace=3 hspace=2></center>
+    <div class="NavBar">
+		<ul><center>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="mealPlan.html">Mealplan</a></li>
+			<li><a href="contact.html">Contact Us</a></li>
+			<li><a href="recipes.html">Recipes</a></li></center>
+		  </ul>
+	</div><center><H1>CONTACT US</H1>
+		<img src="logo.png" class="logoContact"></center>
 		<center>
 		<h4>Location: 1922 Tuxedo St.</h4>
 
-		<a name="fav">
+	
 			<h4>Hours of Operation:</h4>
 			<table border width=400>
 				<tr>
-					<th width=70%>Days</th>
+					<th width=60%>Days</th>
 					<th width=40%>Hours</th>
 				</tr>
 				<tr>
@@ -41,7 +48,28 @@
 
 			<BR>
 			<BR>
-
+				<div>
+					<h2>Please leave us any comments you may have!</h2>
+					<form action="/action_page.php">
+					 
+						<label for="fname">Name</label>
+					  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+				  
+					  <label for="lname">Comments</label>
+					  <input type="text" id="lname" name="lastname" placeholder="Your comment here..">
+				  
+					  <label for="country">Country</label>
+					  <select id="country" name="country">
+						<option value="usa">USA</option>
+						<option value="australia">Australia</option>
+						<option value="canada">Canada</option>
+						
+					  </select>
+					
+					  <input type="submit" value="Submit">
+					
+					</form>
+				  </div>
 			<h4>Email: <a href="gio.garciag11@gmail.com">dave&bustersfake@bust.com</a></h4>
 			<h4>Phone: +1(404)-222-1922</h4>
 			<h4>Follow Us on Twitter and Facebook!</h4>
