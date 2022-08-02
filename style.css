@@ -120,7 +120,7 @@ h4{
 }
 
 .socials a:hover i{
-    color: #f59c16;
+    color: #EB5E28;
 }
 /* FOOTER END */
 /* MEAL PLAN START */
@@ -141,8 +141,8 @@ h4{
     float: right;
 }
 .active, .collapsible:hover {
-    background-color: #ff8533;
-    color: black;
+    background-color: #EB5E28;
+    color: white;
     font-style: bold;
 }
 .content {
@@ -164,15 +164,14 @@ form input[type="text"],form input[type="number"],form select {
 	padding: 7px;
 	border: none;
 	border-bottom: 1px solid #ddd;
-	background: transparent;
 	margin-bottom: 10px;
 	font: 16px Arial, Helvetica, sans-serif;
 	height: 45px;
 }
 form input[type="submit"]{
-	box-shadow: inset 0px 1px 0px 0px #ff8533;
-	background-color: #ff8533;
-	border: 1px solid #ff8533;
+	box-shadow: inset 0px 1px 0px 0px #EB5E28;
+	background-color: #EB5E28;
+	border: 1px solid #EB5E28;
 	display: inline-block;
 	cursor: pointer;
 	color: #FFFFFF;
@@ -184,8 +183,8 @@ form input[type="submit"]{
 }
 
 form input[type="submit"]:hover{
-    background:linear-gradient(to bottom, #3447ec 5%, #3447ec 100%);
-	background-color:#3447ec;
+    background:linear-gradient(to bottom, #3423A6 5%, #3423A6 100%);
+	background-color:#3423A6;
 }
 
 .planSec{
@@ -256,7 +255,7 @@ ul {
   }
   li a {
     display: block;
-    color: blue;
+    color: #3423A6;
     flex: 1 0 auto;
     padding: 3px;
     
@@ -266,7 +265,7 @@ ul {
 
   }
   ul{
-    background-color: orange;
+    background-color: #EB5E28;
   }
   img{
     height: 80%;
@@ -294,7 +293,7 @@ ul {
   
   input[type=submit] {
     width: 100%;
-    background-color: #4CAF50;
+    background-color: #EB5E28;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -304,7 +303,7 @@ ul {
   }
   
   input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #EB5E28;
   }
   h2{
     color: white;
