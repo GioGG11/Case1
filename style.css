@@ -117,9 +117,84 @@ h4{
 }
 
 .socials a:hover i{
-    color: rgb(245, 156, 22);
+    color: #f59c16;
+}
+/* FOOTER END */
+/* MEAL PLAN START */
+.collapsible {
+    background-color: rgb(61, 61, 61);
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 25px;
+    font-style: bold;
+    margin-bottom: 10px;
+  }
+.collapsible span{
+    float: right;
+}
+.active, .collapsible:hover {
+    background-color: #ff8533;
+    color: black;
+    font-style: bold;
+}
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+form{
+    margin: 10px;
+}
+form input[type="text"],form input[type="number"],form select {
+    box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	outline: none;
+	display: block;
+	width: 100%;
+	padding: 7px;
+	border: none;
+	border-bottom: 1px solid #ddd;
+	background: transparent;
+	margin-bottom: 10px;
+	font: 16px Arial, Helvetica, sans-serif;
+	height: 45px;
+}
+form input[type="submit"]{
+	box-shadow: inset 0px 1px 0px 0px #ff8533;
+	background-color: #ff8533;
+	border: 1px solid #ff8533;
+	display: inline-block;
+	cursor: pointer;
+	color: #FFFFFF;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 14px;
+	padding: 8px 18px;
+	text-decoration: none;
+	text-transform: uppercase;
 }
 
+form input[type="submit"]:hover{
+    background:linear-gradient(to bottom, #3447ec 5%, #3447ec 100%);
+	background-color:#3447ec;
+}
+
+.planSec{
+    color: white;
+    font-size: 25px;
+}
+
+.mealCard p{
+    display: inline;
+    font-size: 20px;
+}
+/* MEAL PLAN END */
 /* SEARCH RECIPE PAGE START */
 .search-wrapper{
     color: white;
