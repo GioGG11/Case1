@@ -14,7 +14,10 @@ body {
 table{
     background-color: white;
     height: 75%;
-    width: 85%;
+    width: 75%;
+}
+table td{
+    text-align: center;
 }
 textarea{
     width: 90%;
@@ -235,9 +238,74 @@ form input[type="submit"]:hover{
 .hide{
     display: none;
 }
-
+/*Miscellenous Styling + Nav Bar*/
 .title{
     color: black;
     font-size: 1.25rem;
     font-weight:  bold;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline;
+    
+  }
+  li a {
+    display: block;
+    color: blue;
+    flex: 1 0 auto;
+    padding: 3px;
+    
+  }
+  li a:hover {
+    background-color: black;
+
+  }
+  ul{
+    background-color: orange;
+  }
+  img{
+    height: 80%;
+    width: 80%;
+  }
+  .active {
+    background-color: #04AA6D;
+  }
+  form input{
+    display: block;
+   
+  }
+  form select{
+    align-content: center;
+  }
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  h2{
+    color: white;
+  }
