@@ -8,6 +8,36 @@
     <title>MyMealPlan</title>
 </head>
 <body>
+    <button type="button" class="collapsible">Add Meal
+        <span>&#43;</span></button>
+    <div class="content">
+        <form class="mealPlanForm">
+            <select id="formMealType" name="mealType">
+                <option value="" disabled selected>Meal Type:</option>
+                <option value="breakfast">Breakfast</option>
+                <option value="lunch">Lunch</option>
+                <option value="dinner">Dinner</option>
+                <option value="snack">Snack</option>
+              </select>
+            <input type="text" id="formMealName" name="name" placeholder="Food Name" />
+            <input type="number" id="formCalories" name="calories" placeholder="Calories" />
+            <input type="submit" value="Add meal" />
+          </form>
+    </div>
+    <div class="planSec" id="bfast">Breakfast</div>
+    <hr>
+    <div class="planSec" id="lunch">Lunch</div>
+    <hr>
+    <div class="planSec" id="dinner">Dinner</div>
+    <hr>
+    <div class="planSec" id="snack">Snacks</div>
+
+    <template meal-template>
+        <div class="mealCard">
+            <p class="mealName"></p>
+            <p class="mealCalories"></p>
+        </div>
+    </template>
     <script src="mealPlanScript.js"></script>
     <div class="NavBar">
         <ul><center>
