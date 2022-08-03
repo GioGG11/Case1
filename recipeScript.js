@@ -33,7 +33,7 @@ searchInput.addEventListener('search', (e) =>{
     if(value === ""){
         renderRandomResults();
     }else{
-        fetch(searchURL+'&query='+value)
+        fetch(searchURL+'&query='+value+apiKey)
             .then(res => res.json())
             .then(data =>{
                 for(const item of data.results) {
@@ -56,7 +56,7 @@ function removeResults(){
 }
 
 function renderRandomResults(){
-    fetch(randomURL)
+    fetch(randomURL+apiKey)
         .then(res =>res.json())
         .then(data =>{
             for(const item of data.recipes) {

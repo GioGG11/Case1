@@ -52,6 +52,11 @@ h4{
     width: 90%;
     margin-top: 20px;
 }
+.news img{
+  object-fit: scale-down;
+  width: 150px;
+  height: 100px;
+}
 .luckyPhoto{
     object-fit: scale-down;
     width: 90%;
@@ -211,6 +216,7 @@ form input[type="submit"]:hover{
     justify-content: center;
     gap: .25rem;
     text-align: center;
+    font-size: 25px;
 }
 
 #search{
@@ -343,4 +349,28 @@ ul {
   }
   h2{
     color: white;
+  }
+
+
+  @media only screen and (min-width: 600px) {
+    .goals img{
+      object-fit: contain;
+      width: 90%;
+      max-width: 700px;
+      margin-top: 20px;
+  }
+  .luckyPhoto{
+    object-fit: contain;
+    max-width: 700px;
+    margin-top: 20px;
+    width: 90%;
+  }
+  .logoContact{
+    max-width: 500px;
+  }
+  .news img{
+    object-fit: contain;
+    width: 300px;
+    height: 200px;
+  }
   }
