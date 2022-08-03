@@ -1,5 +1,5 @@
 const apiKey = '&apiKey=a09675119b4846298ec84a1fedd5f4a6';
-fetch('https://api.spoonacular.com/recipes/random?number=1')
+fetch('https://api.spoonacular.com/recipes/random?number=1'+apiKey)
   .then(res => res.json())
   .then(data => {
     let recipeImg = document.querySelector('.luckyPhoto');

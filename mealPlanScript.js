@@ -19,7 +19,11 @@ const lunchSec = document.querySelector("#lunch");
 const dinnerSec = document.querySelector("#dinner");
 const snackSec = document.querySelector("#snack");
 
+const linkElement = document.querySelector(".links");
+
 let allMeals=[];
+
+
 
 var coll = document.getElementsByClassName("collapsible");
 var i;
@@ -77,4 +81,5 @@ function renderMealPlan(allMeals){
         }
     }
 }
+
 
